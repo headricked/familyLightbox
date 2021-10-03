@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>The Twinners</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<script defer src="js/lightbox.js"></script>
+		<script defer src="js/stickyBar.js"></script>
+		<script type="text/javascript" src="js/getTimestamp.js"></script>
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+		<link rel="stylesheet" type="text/css" href="style/style.css">
+	</head>
+
+<body onload="getTimestamp()">
+
+	<!-- Header -->
+	<header class="header">
+		<a href="./index.html" style="color: #fff;"><h1><i class="fas fa-baby"></i><i class="fas fa-baby">&nbsp;The Twins</i></h1></a>
+	</header>
+
+	<!-- Navigation Bar -->
+	<div id="navbar">
+		<a class="active" href="#about">About</a>
+		<a href="#photos">Photos</a>
+		<a href="#contact">Contact</a>
+	</div>
+
+	<!-- The flexible grid (content) -->
+	<div class="row">
+	
+		<!-- Side section -->
+		<div class="side">
+			<a id="about"><h2>About Us</h2></a>
+			<p>Hi. This is my family.</p>
+			<div>
+				<img src="img/family01.jpg" style="width:100%; -webkit-filter: grayscale(100%); filter: grayscale(90%);"/>
+			</div>
+			<p>We like to spend time outdoors, going on walks and hikes.</p>
+			<div>
+				<p>Here we are together at a local park.</p>
+				<img src="img/family02.jpg" style="width:100%; -webkit-filter: grayscale(100%); filter: grayscale(90%);"/>
+				<p>Here we are overlooking a mountain.</p>
+				<img src="img/family03.jpg" style="width:100%; -webkit-filter: grayscale(100%); filter: grayscale(90%);"/>
+			</div>
+		</div>
+			
+		<!-- Main section -->
+		<div class="main">
+			<a id="photos"><h2>109 Days | A Collection of Photos</h2></a>
+			<p>Heroes live in my house.</p>
+			<p>One of them is my wife. The other two are my twin daughters.</p>
+			<p>My wife and I were elated when we found out we were pregnant. When we found out we were having twins, we were overjoyed.</p>
+			<p>When we found out the twins were coming early - three months early - we had no idea what the future would hold.</p>
+			<p>What happened was a challenging experience that took my twin daughters through 109 days of ups and downs (and finally ups) at a neonatal intensive care unit.</p>
+			<p>Here are a few photos of the twins in the NICU.</p>
+			<div class="row">
+				<div class="column">
+					<img src="https://theheadrickfamily.files.wordpress.com/2017/01/img_2995.jpg" class="zoom-img" style="width:100%"/>
+					<img src="https://theheadrickfamily.files.wordpress.com/2016/12/img_2901.jpg" class="zoom-img" style="width:100%"/>
+					<img src="https://theheadrickfamily.files.wordpress.com/2016/12/img_2883.jpg" class="zoom-img" style="width:100%"/>
+					<img src="https://theheadrickfamily.files.wordpress.com/2016/12/img_5422.jpg" class="zoom-img" style="width:100%"/>
+				</div> <!-- close column -->
+
+				<div class="column">
+					<img src="https://theheadrickfamily.files.wordpress.com/2016/12/img_2829-1.jpg" class="zoom-img" style="width:100%"/>
+					<img src="https://theheadrickfamily.files.wordpress.com/2016/12/img_2856.jpg" class="zoom-img" style="width:100%"/>
+					<img src="https://theheadrickfamily.files.wordpress.com/2016/12/img_2866.jpg" class="zoom-img" style="width:100%"/>
+					<img src="https://theheadrickfamily.files.wordpress.com/2016/12/img_2748.jpg" class="zoom-img" style="width:100%"/>
+				</div> <!-- close column -->
+
+				<div class="column">
+					<img src="https://theheadrickfamily.files.wordpress.com/2016/12/img_2865.jpg" class="zoom-img" style="width:100%"/>
+					<img src="https://theheadrickfamily.files.wordpress.com/2016/12/img_2879.jpg" class="zoom-img" style="width:100%"/>
+					<img src="https://theheadrickfamily.files.wordpress.com/2017/01/img_2931.jpg" class="zoom-img" style="width:100%"/>
+					<img src="https://theheadrickfamily.files.wordpress.com/2017/01/img_2966.jpg" class="zoom-img" style="width:100%"/>
+				</div> <!-- close column -->
+
+				<div class="column">
+					<img src="https://theheadrickfamily.files.wordpress.com/2017/01/img_3003.jpg" class="zoom-img" style="width:100%"/>
+					<img src="https://theheadrickfamily.files.wordpress.com/2016/12/img_2930.jpg" class="zoom-img" style="width:100%"/>
+					<img src="https://theheadrickfamily.files.wordpress.com/2016/12/img_5550.jpg" class="zoom-img" style="width:100%"/>
+					<img src="https://theheadrickfamily.files.wordpress.com/2016/12/img_2925.jpg" class="zoom-img" style="width:100%"/>
+				</div> <!-- close column -->
+			</div> <!-- close row -->
+
+			<!-- Contact -->
+			<div>
+				<h2><a id="contact">Contact</a></h2>
+				<form action="">
+					<p>Would you like to learn more about my family? Sign up for blog updates in your email inbox.</p>
+					<p>First name: <input type="text" placeholder="first name" name="fname"></p>
+					<p>Last name: <input type="text" placeholder="last name" name="lname"></p>
+					<p>Email: <input type="text" placeholder="email" name="email"></p>
+					<p><input type="reset" value="Reset"></input><input type="button" value="Submit"></input>
+				</form>
+			</div>
+			
+		</div> <!-- close Main -->
+	</div> <!-- close row -->
+
+
+
+		<!-- Footer -->
+		<div class="footer">
+			<p style="font-size: 75%">Page last modified: <span id="timestamp"></span></p>
+		</div>
+	</body>
+</html>
